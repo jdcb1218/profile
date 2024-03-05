@@ -1,0 +1,14 @@
+uuid: 3271394a-d4c1-4d3c-a031-976fbe4a4b33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.layout_basic_page.field_background_color
+    - paragraphs.paragraphs_type.layout_basic_page
+id: paragraph.layout_basic_page.default
+targetEntityType: paragraph
+bundle: layout_basic_page
+mode: default
+content: {  }
+hidden:
+  field_background_color: true

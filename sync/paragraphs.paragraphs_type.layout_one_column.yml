@@ -1,0 +1,23 @@
+uuid: 76857037-6f40-44e3-8321-a47d9f726278
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:c68312a0-0f34-44cb-b5bf-eba79934a901'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: layout_one_column
+label: 'Layout: One Column'
+icon_uuid: c68312a0-0f34-44cb-b5bf-eba79934a901
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik02IDVDNiA0LjQ0NzcyIDYuNDQ3NzIgNCA3IDRIMTdDMTcuNTUyMyA0IDE4IDQuNDQ3NzIgMTggNVYxOUMxOCAxOS41NTIzIDE3LjU1MjMgMjAgMTcgMjBIN0M2LjQ0NzcyIDIwIDYgMTkuNTUyMyA2IDE5VjVaIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8L3N2Zz4='
+description: 'Allows you to create a one-column layout.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'

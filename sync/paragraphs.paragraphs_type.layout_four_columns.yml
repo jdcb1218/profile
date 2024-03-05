@@ -1,0 +1,23 @@
+uuid: e46fc9ab-3c29-4ddc-9bc3-c9ea73d35ec3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:ff20e925-2416-4850-88e2-206dab7759db'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: layout_four_columns
+label: 'Layout: Four Columns'
+icon_uuid: ff20e925-2416-4850-88e2-206dab7759db
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMTcsMiBMMTcsMjIgTDE3LDIgWiBNMTIsMiBMMTIsMjIgTDEyLDIgWiBNNywyIEw3LDIyIEw3LDIgWiBNMiwyMiBMMjIsMjIgTDIyLDIgTDIsMiBMMiwyMiBaIi8+Cjwvc3ZnPg=='
+description: 'Allows you to create a four-column layout.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_fourcol: 'Four columns 25/25/25/25'

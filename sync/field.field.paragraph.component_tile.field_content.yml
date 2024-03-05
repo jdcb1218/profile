@@ -1,0 +1,26 @@
+uuid: f703ca22-a439-4953-a910-f710cad42704
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - filter.format.basic_html
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.component_tile
+  module:
+    - text
+id: paragraph.component_tile.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: component_tile
+label: Content
+description: 'Enter the text you want to include as the content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

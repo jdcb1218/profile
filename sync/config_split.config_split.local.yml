@@ -1,0 +1,17 @@
+uuid: 3c8cb720-228a-4a4c-a91e-432513509b86
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+description: 'This split is used for Local environments.'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/local
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.performance

@@ -1,0 +1,22 @@
+uuid: 294c76f5-05b7-45cf-9508-35bb87a08d19
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: define_the_pattern_for_basic_urls
+label: 'Define the pattern for basic URLs'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  d00cc235-5add-4259-bdfe-f69b7215559e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d00cc235-5add-4259-bdfe-f69b7215559e
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

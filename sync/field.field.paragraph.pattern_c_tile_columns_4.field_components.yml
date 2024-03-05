@@ -1,0 +1,58 @@
+uuid: e838fd36-55b1-4ba5-8597-b6c7b2e528ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_components
+    - paragraphs.paragraphs_type.component_tile
+    - paragraphs.paragraphs_type.pattern_c_tile_columns_4
+  module:
+    - entity_reference_revisions
+id: paragraph.pattern_c_tile_columns_4.field_components
+field_name: field_components
+entity_type: paragraph
+bundle: pattern_c_tile_columns_4
+label: Components
+description: 'Create a tile of four columns'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      component_tile: component_tile
+    negate: 0
+    target_bundles_drag_drop:
+      component_feature_spotlight:
+        weight: 11
+        enabled: false
+      component_image:
+        weight: 12
+        enabled: false
+      component_tile:
+        weight: 13
+        enabled: true
+      component_video:
+        weight: 14
+        enabled: false
+      layout_basic_page:
+        weight: 15
+        enabled: false
+      layout_four_columns:
+        weight: 16
+        enabled: false
+      layout_one_column:
+        weight: 17
+        enabled: false
+      layout_three_columns:
+        weight: 18
+        enabled: false
+      layout_two_columns:
+        weight: 19
+        enabled: false
+      pattern_c_tile_columns_4:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

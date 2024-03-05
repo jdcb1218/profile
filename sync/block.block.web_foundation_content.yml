@@ -1,0 +1,22 @@
+uuid: c7282793-252a-493e-af8b-97d305fe5835
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: web_foundation_content
+theme: web_foundation
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

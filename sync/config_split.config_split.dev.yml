@@ -1,0 +1,16 @@
+uuid: f283c720-bfbd-4d92-aee9-b10deff27e4a
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Development
+description: 'This split is used for Multidev and Dev environments.'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/dev
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

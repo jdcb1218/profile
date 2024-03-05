@@ -1,0 +1,32 @@
+uuid: 0da0f05f-198d-4c42-9ad0-9e995353e5f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_feature_spotlight.field_content
+    - field.field.paragraph.component_feature_spotlight.field_image
+    - paragraphs.paragraphs_type.component_feature_spotlight
+  module:
+    - text
+id: paragraph.component_feature_spotlight.default
+targetEntityType: paragraph
+bundle: component_feature_spotlight
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

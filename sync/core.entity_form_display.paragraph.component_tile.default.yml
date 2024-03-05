@@ -1,0 +1,34 @@
+uuid: 8567d884-d9e0-499d-8213-f64ccef292b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_tile.field_content
+    - field.field.paragraph.component_tile.field_image
+    - paragraphs.paragraphs_type.component_tile
+  module:
+    - media_library
+    - text
+id: paragraph.component_tile.default
+targetEntityType: paragraph
+bundle: component_tile
+mode: default
+content:
+  field_content:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

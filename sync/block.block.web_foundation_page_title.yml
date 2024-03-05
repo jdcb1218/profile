@@ -1,0 +1,20 @@
+uuid: b49b34ff-36b5-43b2-a278-9ce7b11c4af7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: web_foundation_page_title
+theme: web_foundation
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

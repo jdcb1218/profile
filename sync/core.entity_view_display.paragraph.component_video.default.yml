@@ -1,0 +1,22 @@
+uuid: b3c4f69f-9f22-4c61-b55b-395322a2a40c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_video.field_video
+    - paragraphs.paragraphs_type.component_video
+id: paragraph.component_video.default
+targetEntityType: paragraph
+bundle: component_video
+mode: default
+content:
+  field_video:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

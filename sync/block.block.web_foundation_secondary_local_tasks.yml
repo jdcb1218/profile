@@ -1,0 +1,22 @@
+uuid: 2f5d348a-14f8-4677-8d04-484f17de6b6a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: web_foundation_secondary_local_tasks
+theme: web_foundation
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

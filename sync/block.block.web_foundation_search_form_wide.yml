@@ -1,0 +1,23 @@
+uuid: 28b412ee-bde2-49d1-9f44-9be66c7fb675
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: web_foundation_search_form_wide
+theme: web_foundation
+region: navbar_branding
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

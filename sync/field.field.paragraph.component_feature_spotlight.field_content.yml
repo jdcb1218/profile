@@ -1,0 +1,26 @@
+uuid: 78e2b6cf-4eec-45b6-9a02-d717bbf77df3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - filter.format.basic_html
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.component_feature_spotlight
+  module:
+    - text
+id: paragraph.component_feature_spotlight.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: component_feature_spotlight
+label: Content
+description: 'Enter the text you want to include as the content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

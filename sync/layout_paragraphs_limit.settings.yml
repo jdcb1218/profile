@@ -1,0 +1,134 @@
+disallowed_types:
+  layout_onecol:
+    content:
+      negate: false
+      paragraph_types:
+        component_tile: component_tile
+  layout_twocol:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_twocol_bricks:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first_above:
+      negate: false
+      paragraph_types: {  }
+    second_above:
+      negate: false
+      paragraph_types: {  }
+    middle:
+      negate: false
+      paragraph_types: {  }
+    first_below:
+      negate: false
+      paragraph_types: {  }
+    second_below:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_threecol_25_50_25:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    third:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_threecol_33_34_33:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    third:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_fourcol:
+    top:
+      negate: false
+      paragraph_types: {  }
+    first:
+      negate: false
+      paragraph_types: {  }
+    second:
+      negate: false
+      paragraph_types: {  }
+    third:
+      negate: false
+      paragraph_types: {  }
+    fourth:
+      negate: false
+      paragraph_types: {  }
+    bottom:
+      negate: false
+      paragraph_types: {  }
+  layout_basic_page_v1:
+    top_left:
+      negate: false
+      paragraph_types: {  }
+    top_right:
+      negate: false
+      paragraph_types: {  }
+    row_1:
+      negate: false
+      paragraph_types: {  }
+    row_2:
+      negate: false
+      paragraph_types: {  }
+    row_3:
+      negate: false
+      paragraph_types: {  }
+  layout_basic_page_v2:
+    top:
+      negate: false
+      paragraph_types: {  }
+    row_1:
+      negate: false
+      paragraph_types: {  }
+    row_2:
+      negate: false
+      paragraph_types: {  }
+    row_3:
+      negate: false
+      paragraph_types: {  }
+  pattern_read_more_three_columns:
+    first:
+      negate: true
+      paragraph_types:
+        component_tile: component_tile
+    second:
+      negate: true
+      paragraph_types:
+        component_tile: component_tile
+    third:
+      negate: true
+      paragraph_types:
+        component_tile: component_tile

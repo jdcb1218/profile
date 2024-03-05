@@ -1,0 +1,24 @@
+uuid: c4a9981a-5d89-4666-aba5-a07e347fff05
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:f0b49d43-11a9-41e9-876a-05dd88767057'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: layout_two_columns
+label: 'Layout: Two Columns'
+icon_uuid: f0b49d43-11a9-41e9-876a-05dd88767057
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZD0iTTEyIDNWMjFNNy44IDNIMTYuMkMxNy44ODAyIDMgMTguNzIwMiAzIDE5LjM2MiAzLjMyNjk4QzE5LjkyNjUgMy42MTQ2IDIwLjM4NTQgNC4wNzM1NCAyMC42NzMgNC42MzgwM0MyMSA1LjI3OTc2IDIxIDYuMTE5ODQgMjEgNy44VjE2LjJDMjEgMTcuODgwMiAyMSAxOC43MjAyIDIwLjY3MyAxOS4zNjJDMjAuMzg1NCAxOS45MjY1IDE5LjkyNjUgMjAuMzg1NCAxOS4zNjIgMjAuNjczQzE4LjcyMDIgMjEgMTcuODgwMiAyMSAxNi4yIDIxSDcuOEM2LjExOTg0IDIxIDUuMjc5NzYgMjEgNC42MzgwMyAyMC42NzNDNC4wNzM1NCAyMC4zODU0IDMuNjE0NiAxOS45MjY1IDMuMzI2OTggMTkuMzYyQzMgMTguNzIwMiAzIDE3Ljg4MDIgMyAxNi4yVjcuOEMzIDYuMTE5ODQgMyA1LjI3OTc2IDMuMzI2OTggNC42MzgwM0MzLjYxNDYgNC4wNzM1NCA0LjA3MzU0IDMuNjE0NiA0LjYzODAzIDMuMzI2OThDNS4yNzk3NiAzIDYuMTE5ODQgMyA3LjggM1oiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCjwvc3ZnPg=='
+description: 'Allows you to create a two-column layout.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_twocol: 'Two column'
+      layout_twocol_bricks: 'Two column bricks'

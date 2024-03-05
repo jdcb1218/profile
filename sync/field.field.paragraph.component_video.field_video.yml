@@ -1,0 +1,29 @@
+uuid: 0d7de9a7-31da-414c-a859-8a430bc47a3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video
+    - media.type.video
+    - paragraphs.paragraphs_type.component_video
+id: paragraph.component_video.field_video
+field_name: field_video
+entity_type: paragraph
+bundle: component_video
+label: Video
+description: 'Upload the video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

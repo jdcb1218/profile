@@ -1,0 +1,20 @@
+uuid: 21b772c9-85f4-4ef7-8105-ce5dcca888dc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: web_foundation_primary_admin_actions
+theme: web_foundation
+region: header
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: eda344d3-3c53-4def-9d50-8dbde94ff3f8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:4709b353-4209-4a69-b10a-c2e13814644c'
+  module:
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: pattern_c_tile_columns_4
+label: 'Pattern: Tile columns (four)'
+icon_uuid: 4709b353-4209-4a69-b10a-c2e13814644c
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBVcGxvYWRlZCB0bzogU1ZHIFJlcG8sIHd3dy5zdmdyZXBvLmNvbSwgR2VuZXJhdG9yOiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIGZpbGw9IiMwMDAwMDAiIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgDQoJIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDM1IDM1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cmVjdCB3aWR0aD0iNi4xMTkiIGhlaWdodD0iMzUiLz4NCgkJPHJlY3QgeD0iOS42MTUiIHdpZHRoPSI2LjEzMyIgaGVpZ2h0PSIzNSIvPg0KCQk8cmVjdCB4PSIxOS4yNDUiIHdpZHRoPSI2LjExNiIgaGVpZ2h0PSIzNSIvPg0KCQk8cmVjdCB4PSIyOC44NzMiIHdpZHRoPSI2LjEyNyIgaGVpZ2h0PSIzNSIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg=='
+description: 'Allows you to create a pattern component based on paragraphs fields.'
+behavior_plugins: {  }

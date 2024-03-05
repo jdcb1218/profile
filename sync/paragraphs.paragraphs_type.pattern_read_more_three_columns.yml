@@ -1,0 +1,23 @@
+uuid: 1b7d86b2-e521-4664-b73f-4865edba530b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:1580f69c-2fa3-48aa-831e-8061d75853df'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: pattern_read_more_three_columns
+label: 'Pattern: Read more (three columns)'
+icon_uuid: 1580f69c-2fa3-48aa-831e-8061d75853df
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBVcGxvYWRlZCB0bzogU1ZHIFJlcG8sIHd3dy5zdmdyZXBvLmNvbSwgR2VuZXJhdG9yOiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIGZpbGw9IiMwMDAwMDAiIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgDQoJIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDM1IDM1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMCwwdjM1aDM1VjBIMHogTTMzLDMzSDJWMmgzMVYzM3oiLz4NCgkJPHJlY3QgeD0iNC41IiB5PSI0LjUiIHdpZHRoPSI3IiBoZWlnaHQ9IjI2Ii8+DQoJCTxyZWN0IHg9IjE0IiB5PSI0LjUiIHdpZHRoPSI3IiBoZWlnaHQ9IjI2Ii8+DQoJCTxyZWN0IHg9IjIzLjUiIHk9IjQuNSIgd2lkdGg9IjciIGhlaWdodD0iMjYiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4='
+description: 'Allows you to create a read-more pattern layout in a three-column layout.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      pattern_read_more_three_columns: 'Read more (33/34/33)'

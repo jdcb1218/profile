@@ -1,0 +1,47 @@
+uuid: 89c51cb5-1746-4cb2-8902-683cd3633780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.article
+    - paragraphs.paragraphs_type.component_tile
+    - paragraphs.paragraphs_type.layout_three_columns
+    - paragraphs.paragraphs_type.layout_two_columns
+  module:
+    - entity_reference_revisions
+id: node.article.field_components
+field_name: field_components
+entity_type: node
+bundle: article
+label: Components
+description: 'Allows you to select a component from the component library.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      component_tile: component_tile
+      layout_three_columns: layout_three_columns
+      layout_two_columns: layout_two_columns
+    negate: 0
+    target_bundles_drag_drop:
+      component_tile:
+        weight: 6
+        enabled: true
+      image:
+        weight: 7
+        enabled: true
+      layout_one_column:
+        weight: 8
+        enabled: false
+      layout_three_columns:
+        weight: 9
+        enabled: true
+      layout_two_columns:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

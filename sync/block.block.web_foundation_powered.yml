@@ -1,0 +1,22 @@
+uuid: efe5ec67-10aa-4cd6-a2fa-6651618258f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: web_foundation_powered
+theme: web_foundation
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

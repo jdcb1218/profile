@@ -1,0 +1,22 @@
+uuid: cd01e84f-99e5-4d78-b89e-61dc5d207250
+langcode: en
+status: true
+dependencies:
+  theme:
+    - web_foundation
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: web_foundation_primary_local_tasks
+theme: web_foundation
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

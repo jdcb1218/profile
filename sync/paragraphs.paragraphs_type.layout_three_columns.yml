@@ -1,0 +1,24 @@
+uuid: a6f5e8f2-b3b6-4aa3-9666-d31a9603b9d1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:0fdb489c-6cbc-4855-bb41-c17cacf31013'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: layout_three_columns
+label: 'Layout: Three Columns'
+icon_uuid: 0fdb489c-6cbc-4855-bb41-c17cacf31013
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiPg0KICA8cGF0aCBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTkgNHYxNm02LTE2djE2TTQgMjBoMTZhMSAxIDAgMDAxLTFWNWExIDEgMCAwMC0xLTFINGExIDEgMCAwMC0xIDF2MTRhMSAxIDAgMDAxIDF6Ii8+DQo8L3N2Zz4='
+description: 'Allows you to create a three-column layout.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_threecol_33_34_33: 'Three column 33/34/33'

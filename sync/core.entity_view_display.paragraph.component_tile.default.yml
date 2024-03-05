@@ -1,0 +1,32 @@
+uuid: ee348fda-73d1-4b8d-9bb3-d75b9fada4f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_tile.field_content
+    - field.field.paragraph.component_tile.field_image
+    - paragraphs.paragraphs_type.component_tile
+  module:
+    - text
+id: paragraph.component_tile.default
+targetEntityType: paragraph
+bundle: component_tile
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
